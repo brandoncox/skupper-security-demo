@@ -14,7 +14,7 @@ metadata:
   name: database
   namespace: patient-portal
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: database
